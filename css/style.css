@@ -1,10 +1,10 @@
 * {
     box-sizing: border-box;
-    /* border: solid 2px red; */
+    border: solid 2px red;
 }
 
 body {
-    font-family: Merriweather;
+    font-family: merriweather, sans-serif;
     margin: 0;
 }
 h1 {
@@ -56,6 +56,7 @@ label {
     background-color: #eff0f1;
     height: 55px;
     border-radius: 8px;
+    border: none;
     
 }
  
@@ -65,7 +66,22 @@ input::placeholder {
     font-size: .9em;
     text-align: right;
     padding-right: 10px;
+}
 
+input,
+select {
+    text-indent: 12px;
+    
+}
+
+select {
+    color: #bdc1c5;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border: solid 3px #5b7a98;
 }
 
 #zipcode {
