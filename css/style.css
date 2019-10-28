@@ -49,15 +49,19 @@ h2 {
 .container {
     display: flex;
     flex-direction: column;
-    margin: -7px 1.5%;
+    margin: -7px 0.3%;
     border-top: solid #2d3944 3px;
-    
 }
 
 #contact {
     margin: 8% 0;
     justify-content: left;
 
+}
+
+.flex-pair {
+    display: flex;
+    flex-direction: column;
 }
 
 label {
