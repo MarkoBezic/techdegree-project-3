@@ -18,34 +18,34 @@
         
         <h2>Signup for our newsletter</h2>
         <p id="top">Get the latest news on how your code is doing right in your inbox</p>
-        <div id="thin-line"> </div>
+        <div class="thin-line"></div>
         <fieldset class="container">   
             
-            <legend><h2 id="contact">Contact Information</h2></legend>
+            <legend id="contact">Contact Information</legend>
 
             <div class="flex-pair">
                 <label for="name">Full Name</label>
-                <input type="text" id="name" name="user_name" placeholder="Required" class="box">
+                <input required type="text" id="name" name="user_name" placeholder="Required" class="box">
             </div>
 
             <div class="flex-pair">
                 <label for="mail">Email Address</label>
-                <input type="email" id="mail" name="user_email" placeholder="Required" class="box">
+                <input required type="email" id="mail" name="user_email" placeholder="Required" class="box">
             </div>
 
             <div class="flex-pair">
                 <label for="phone">Phone Number</label>
-                <input type="tel" id="phone" name="user_phone" class="box">
+                <input required type="tel" id="phone" name="user_phone" placeholder="Required" class="box">
             </div>
 
             <div class="flex-pair">
                 <label for="street">Street Address</label>
-                <input type="text" id="street" name="user_street" class="box">
+                <input required type="text" id="street" name="user_street" placeholder="Required" class="box">
             </div>
 
             <div class="flex-pair">
                 <label for="city">City</label>
-                <input type="text" id="city" name="user_city" class="box">
+                <input required type="text" id="city" name="user_city" placeholder="Required" class="box">
             </div>
 
             <div class="flex-pair">
@@ -108,13 +108,13 @@
 
             <div class="flex-pair">
                 <label for="zipcode">Zip Code</label>
-                <input type="text" id="zipcode" name="user_zipcode" class="box">
+                <input required type="text" id="zipcode" name="user_zipcode" placeholder="Required" class="box">
             </div>
             </fieldset>
-
-            <fieldset>
-            <div class="newsletter">  
-                <legend><h2 id="h2news">Newsletter</h2></legend>
+            <div class="thin-line"></div>
+            <fieldset class="newsletter">
+              
+                <legend id="h2news">Newsletter</legend>
                 <P>Select the newsletter you would like to recieve</P>
 
                 <label><input type="checkbox" id="html_news" value="html_news" name="newsletter"> HTML News</label>
@@ -125,7 +125,6 @@
 
                 <label><input type="radio" id="html" value="html" name="newsletter_format"> HTML</label>
                 <label><input type="radio" id="planetxt" value="plane_text" name="newsletter_format"> Plane text</label>
-
                 <label for="comments">Other topics you'd like to hear about</label>
                 <textarea id="comments" name="user_comments" class="box"></textarea>
             
@@ -135,9 +134,6 @@
                 <p id="caption">Copyright The Code Review</p>
 
             </fieldset>
-            </div>      
-           
-
     </form>
 </body>
 </html>
