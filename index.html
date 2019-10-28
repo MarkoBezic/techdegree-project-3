@@ -19,9 +19,11 @@
         <h2>Signup for our newsletter</h2>
         <p id="top">Get the latest news on how your code is doing right in your inbox</p>
         
+        <fieldset>
         <div class="container">
 
-            <h2 id="contact">Contact Information</h2>
+            
+            <legend><h2 id="contact">Contact Information</h2></legend>
 
             <div class="expanded">
                 <label for="name">Full Name</label>
@@ -104,14 +106,17 @@
                     
                 </select>
             </div>
+            
 
             <div class="expanded">
                 <label for="zipcode">Zip Code</label>
                 <input type="text" id="zipcode" name="user_zipcode" class="box">
             </div>
+            </fieldset>
 
+            <fieldset>
             <div class="newsletter">  
-                <h2 id="h2news">Newsletter</h2>
+                <legend><h2 id="h2news">Newsletter</h2></legend>
                 <P>Select the newsletter you would like to recieve</P>
 
                 <label><input type="checkbox" id="html_news" value="html_news" name="newsletter"> HTML News</label>
@@ -125,6 +130,7 @@
 
                 <label for="comments">Other topics you'd like to hear about</label>
                 <textarea id="comments" name="user_comments" class="box"></textarea>
+            </fieldset>
 
                 <button type="submit">Sign Up</button>
 
